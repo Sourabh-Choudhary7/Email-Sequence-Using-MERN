@@ -1,10 +1,13 @@
+import FlowChart from "./components/FlowChart"
+
 function App() {
 
   return (
     <>
-    <div>
-      <h1>Email Marketting Sequence</h1>
-      </div>
+     <div className="App">
+      <h1>Email Sequence Builder</h1>
+      <FlowChart />
+    </div>
     </>
   )
 }
